@@ -1405,6 +1405,12 @@ namespace
 			"PRISM.Legacy.dll", "PRISM.Scenario",
 			"ScenarioManager", "Init", 1
 		);
+		
+		auto ResorceVersion_get = il2cpp_symbols::get_method_pointer(
+			"PRISM.Module.Networking.dll", "PRISM.Module.Networking",
+			"get_ResourceVersion", "Init", 1
+		);
+		
 		auto DataFile_GetBytes_addr = il2cpp_symbols::get_method_pointer(
 			"PRISM.Legacy.dll", "PRISM",
 			"DataFile", "GetBytes", 1
